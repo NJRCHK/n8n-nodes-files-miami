@@ -1,0 +1,58 @@
+{
+	"name": "n8n-nodes-files-miami",
+	"version": "0.1.0",
+	"description": "n8n node for files.miami: convert DOCX, DOC, ODT and RTF documents to PDF or PNG",
+	"license": "MIT",
+	"homepage": "https://files.miami/?utm_source=n8n",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"docx",
+		"docx to pdf",
+		"word to pdf",
+		"pdf",
+		"png",
+		"document conversion",
+		"files.miami"
+	],
+	"author": {
+		"name": "files.miami",
+		"email": "nathaniel@files.miami"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NJRCHK/n8n-nodes-files-miami.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/FilesMiamiApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/FilesMiami/FilesMiami.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^21.1.0",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

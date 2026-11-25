@@ -1,0 +1,12 @@
+{
+	"node": "n8n-nodes-files-miami.filesMiami",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{ "url": "https://github.com/NJRCHK/n8n-nodes-files-miami#credentials" }
+		],
+		"primaryDocumentation": [{ "url": "https://github.com/NJRCHK/n8n-nodes-files-miami#readme" }]
+	}
+}
