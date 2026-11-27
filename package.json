@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-files-miami",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n node for files.miami: convert DOCX, DOC, ODT and RTF documents to PDF or PNG",
 	"license": "MIT",
 	"homepage": "https://files.miami/?utm_source=n8n",

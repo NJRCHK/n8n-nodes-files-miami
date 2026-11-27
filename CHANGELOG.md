@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Published with npm trusted publishing; no npm token is stored.
+
 ## 0.1.0
 
 - Convert DOCX, DOC, ODT and RTF documents to PDF.
